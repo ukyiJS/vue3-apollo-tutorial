@@ -1,29 +1,38 @@
-# pokedex
+# vue3-apollo-tutorial
 
-## Project setup
+<p align="center">
+  <a href="http://nestjs.com/" target="_blank"><img src="https://raw.githubusercontent.com/ukyiJS/vue3-apollo-tutorial/master/src/assets/img/project-logo.png" height="160"/></a>
+</p>
+
+## 프로젝트 설치
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 프로젝트 컴파일 및 핫 리로드
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### 프로젝트 빌드
+
 ```
 yarn build
 ```
 
-### Run your unit tests
-```
-yarn test:unit
-```
+### ESLint 및 파일 수정
 
-### Lints and fixes files
 ```
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 사용된 라이브러리
+
+- [Vue3](https://github.com/vuejs/vue-next)
+- [Graphql](https://graphql.org/)
+- [Apollo](https://www.apollographql.com/)
+- [Vue-Apollo](apollo-composable)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
