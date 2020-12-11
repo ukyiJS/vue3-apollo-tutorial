@@ -2,7 +2,7 @@ import getAutoCompleteKeyword from '@/gql/autoCompleteKeyword.gql';
 import { useQuery, useResult } from '@vue/apollo-composable';
 import { toRefs, reactive } from 'vue';
 
-export const useAutoCompleteKeyword = () => {
+export const useAutoCompleteKeywords = () => {
   const state = reactive({
     keyword: undefined,
   });
