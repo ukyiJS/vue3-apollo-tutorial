@@ -1,0 +1,14 @@
+query($page: Int, $display: Int, $name: String, $types: [PokemonTypes!]) {
+  getPokemons(page: $page, display: $display, name: $name, types: $types) {
+    pokemon {
+      no
+      name {
+        kor
+        eng
+      }
+      image
+      types
+    }
+    count
+  }
+}
