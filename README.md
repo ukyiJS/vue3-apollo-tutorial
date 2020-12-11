@@ -1,7 +1,7 @@
 # vue3-apollo-tutorial
 
 <p align="center">
-  <a href="http://nestjs.com/" target="_blank"><img src="https://raw.githubusercontent.com/ukyiJS/vue3-apollo-tutorial/master/src/assets/img/project-logo.png" height="160"/></a>
+  <a href="https://v4.apollo.vuejs.org/" target="_blank"><img src="https://raw.githubusercontent.com/ukyiJS/vue3-apollo-tutorial/master/src/assets/img/project-logo.png" height="160"/></a>
 </p>
 
 ## 프로젝트 설치
@@ -33,6 +33,6 @@ yarn lint
 - [Vue3](https://github.com/vuejs/vue-next)
 - [Graphql](https://graphql.org/)
 - [Apollo](https://www.apollographql.com/)
-- [Vue-Apollo](apollo-composable)
+- [Vue-Apollo](https://v4.apollo.vuejs.org/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
