@@ -10,26 +10,16 @@
   "rules": {
     "no-console": "warn",
     "no-debugger": "warn",
-    "no-shadow": "off",
     "no-unused-vars": "warn",
-    "no-param-reassign": "off",
+    "no-trailing-spaces": "warn",
     "no-return-assign": "off",
-    "no-use-before-define": "off",
-    "semi": "warn",
+    "no-param-reassign": "off",
+    "no-shadow": "off",
     "max-len": "off",
+    "arrow-parens": "off",
+    "import/extensions": "off",
     "import/prefer-default-export": "off",
-    "import/no-cycle": "off",
-    "implicit-arrow-linebreak": "off",
-    "object-curly-newline": "off",
-    "arrow-body-style": "off",
-    "arrow-parens": "off"
-  },
-  "overrides": [
-    {
-      "files": ["**/__tests__/*.{j,t}s?(x)", "**/tests/unit/**/*.spec.{j,t}s?(x)"],
-      "env": {
-        "jest": true
-      }
-    }
-  ]
+    "vue/no-unused-components": "warn",
+    "object-curly-newline": "off"
+  }
 }
